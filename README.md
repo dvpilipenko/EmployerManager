@@ -2,6 +2,9 @@
 
 Application for managing employees in different offices, the interface of this application has also been optimized for mobile devices
 
+## Stack
+Angular + Node.JS Express + MongoDb
+
 ## Installation
 
 Make sure you have the latest version of docker-compose installed
