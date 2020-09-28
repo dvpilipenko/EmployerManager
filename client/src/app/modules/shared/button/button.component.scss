@@ -1,0 +1,15 @@
+@import "~@angular/material/theming";
+@import '../../../../varibles';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  .title {
+    color: $white;
+  }
+  .button{
+    margin-top: 5px;
+  }
+}

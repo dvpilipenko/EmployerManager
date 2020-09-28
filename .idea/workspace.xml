@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb77a744-38db-4bf4-996b-ba4083510210" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/EmployerManager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/employer-manager/employee-dialog/employee-dialog.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/employer-manager/employee-dialog/employee-dialog.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/employer-manager/employee-dialog/employee-dialog.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/employer-manager/employee-dialog/employee-dialog.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/employer-manager/employee-list/employee-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/employer-manager/employee-list/employee-list.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/employer-manager/employee-list/employee-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/employer-manager/employee-list/employee-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/employer-manager/employer-manager.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/employer-manager/search-panel/search-panel.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/employer-manager/search-panel/search-panel.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/employer-manager/search-panel/search-panel.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/employer-manager/search-panel/search-panel.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/employer-manager/tags-dialog/tags-dialog.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/employer-manager/tags-dialog/tags-dialog.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/employer-manager/tags-dialog/tags-dialog.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/employer-manager/tags-dialog/tags-dialog.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/material.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/shared/button/button.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/shared/button/button.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/shared/button/button.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/shared/button/button.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/shared/shared.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/shared/spinner/spinner.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/shared/spinner/spinner.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/shared/spinner/spinner.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/modules/shared/spinner/spinner.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/store/action.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/store/effetc.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/store/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/store/selector.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/varibles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/dist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/dist/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/dist/models/IEmployee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/dist/models/IEmployee.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/dist/models/models.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/dist/models/models.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/dist/models/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/dist/models/utils.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/dist/routes/employees.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/dist/routes/employees.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/dist/routes/tags.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/dist/routes/tags.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/dist/schemas/employee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/dist/schemas/employee.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/dist/schemas/tag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/dist/schemas/tag.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/mongo-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/models/models.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/models/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/routes/employees.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/routes/tags.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/schemas/employee.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/schemas/tag.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/tslint.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1i6PSElKJiPHJ8RhxE7qGXbvWus" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/npm/node_modules/prettier" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\User\AppData\Roaming\npm\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="C:\EmployerManager\client\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb77a744-38db-4bf4-996b-ba4083510210" name="Default Changelist" comment="" />
+      <created>1601225065545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601225065545</updated>
+      <workItem from="1601225066718" duration="502000" />
+      <workItem from="1601258836639" duration="3080000" />
+      <workItem from="1601261956627" duration="99000" />
+      <workItem from="1601262101490" duration="28000" />
+      <workItem from="1601262145992" duration="1042000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/client" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601262245995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.-334.1536.824@0.0.1920.1040" timestamp="1601262245995" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1601262406287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.-334.1536.824@0.0.1920.1040" timestamp="1601262406287" />
+  </component>
+</project>

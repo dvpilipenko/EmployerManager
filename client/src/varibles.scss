@@ -1,0 +1,10 @@
+@import "~@angular/material/theming";
+
+$primaryPalette: mat-palette($mat-indigo);
+$accentPalette:  mat-palette($mat-pink, A200, A100, A400);
+$white: #ffffff;
+$gray: #f8f8f8;
+$darkGray: rgba(0,0,0,.04);
+
+$mobileBreakPoint: 635px;
+

@@ -1,0 +1,62 @@
+<div mat-dialog-content>
+  <h1 *ngIf="!data?._id" mat-dialog-title>New Employee</h1>
+  <h1 *ngIf="data?._id" mat-dialog-title>Edit Employee</h1>
+  <form [formGroup]="formGroup">
+    <mat-form-field>
+      <mat-label>First Name</mat-label>
+      <input matInput formControlName="firstName" required />
+      <mat-error>First Name is required</mat-error>
+    </mat-form-field>
+    <br />
+    <mat-form-field>
+      <mat-label>Last Name</mat-label>
+      <input matInput formControlName="lastName" required />
+      <mat-error>Last Name is required</mat-error>
+    </mat-form-field>
+    <br />
+    <mat-form-field>
+      <mat-label>Office</mat-label>
+      <mat-select formControlName="office" required>
+        <mat-option *ngFor="let office of offices$ | async" [value]="office">{{
+          office
+        }}</mat-option>
+      </mat-select>
+      <mat-error>Office is required</mat-error>
+    </mat-form-field>
+    <br />
+    <mat-form-field>
+      <mat-label>Phone</mat-label>
+      <input matInput formControlName="phone" required />
+      <mat-error>Phone is required</mat-error>
+    </mat-form-field>
+    <br />
+    <mat-form-field>
+      <mat-label required="true">Birth Date</mat-label>
+      <input
+        required
+        formControlName="birthDate"
+        matInput
+        [matDatepicker]="picker"
+        (click)="picker.open()"
+      />
+      <mat-datepicker #picker></mat-datepicker>
+      <mat-error>Birth Date is required</mat-error>
+    </mat-form-field>
+    <br />
+    <mat-form-field>
+      <mat-label>Tags</mat-label>
+      <mat-select formControlName="tags" multiple>
+        <mat-option *ngFor="let tag of tags$ | async" [value]="tag.value">{{
+          tag.value
+        }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </form>
+</div>
+<div mat-dialog-actions class="action-button">
+  <button mat-button mat-dialog-close="">Close</button>
+  <button mat-button *ngIf="data?._id" (click)="deleteEmployee()">
+    Delete
+  </button>
+  <button mat-button cdkFocusInitial (click)="saveEmployee()">Save</button>
+</div>

@@ -1,0 +1,30 @@
+@import "../../../../varibles";
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  mat-form-field {
+    padding-left: 20px;
+    width: 120px;
+  }
+  .buttons {
+    height: 35px;
+    button {
+      margin-left: 20px;
+    }
+  }
+}
+@media only screen and (max-width: $mobileBreakPoint) {
+  .form{
+    justify-content: space-evenly;
+  }
+  .buttons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+}

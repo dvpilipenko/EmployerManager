@@ -1,0 +1,101 @@
+db.employees.insertMany([
+  {
+    firstName: "Ivan",
+    lastName: "Ivanov",
+    office: "Riga",
+    birthDate: new Date(),
+    phone: "877799911122",
+    tags: ["oneTag", "twoTag"],
+  },
+  {
+    firstName: "Ivan",
+    lastName: "Petrov",
+    office: "Riga",
+    birthDate: new Date(),
+    phone: "877799911122",
+    tags: ["oneTag", "twoTag"],
+  },
+  {
+    firstName: "Jhon",
+    lastName: "Rambo",
+    office: "Riga",
+    birthDate: new Date(),
+    phone: "877799911122",
+    tags: ["oneTag", "twoTag"],
+  },
+  {
+    firstName: "Jhon",
+    lastName: "Snow",
+    office: "Riga",
+    birthDate: new Date(),
+    phone: "877799911122",
+    tags: ["oneTag", "twoTag"],
+  },
+  {
+    firstName: "Antony",
+    lastName: "Hopkins",
+    office: "Riga",
+    birthDate: new Date(),
+    phone: "877799911122",
+    tags: ["oneTag", "twoTag"],
+  },
+  {
+    firstName: "Jim",
+    lastName: "Karry",
+    office: "Riga",
+    birthDate: new Date(),
+    phone: "877799911122",
+    tags: ["oneTag", "twoTag"],
+  },
+  {
+    firstName: "Adam",
+    lastName: "Thomson",
+    office: "Riga",
+    birthDate: new Date(),
+    phone: "877799911122",
+    tags: ["oneTag", "twoTag"],
+  },
+  {
+    firstName: "Albert",
+    lastName: "Einstein",
+    office: "Tallinn",
+    birthDate: new Date(),
+    phone: "877799911122",
+    tags: ["oneTag", "twoTag"],
+  },
+  {
+    firstName: "Donald",
+    lastName: "Duck",
+    office: "Tallinn",
+    birthDate: new Date(),
+    phone: "877799911122",
+    tags: ["oneTag", "twoTag"],
+  },
+  {
+    firstName: "Victor",
+    lastName: "Victor",
+    office: "Tallinn",
+    birthDate: new Date(),
+    phone: "877799911122",
+    tags: ["oneTag", "twoTag"],
+  },
+  {
+    firstName: "Jacky",
+    lastName: "Chan",
+    office: "Tallinn",
+    birthDate: new Date(),
+    phone: "877799911122",
+    tags: ["oneTag", "twoTag"],
+  },
+]);
+db.tags.insertMany([
+  {
+    value: "oneTag",
+  },
+  {
+    value: "twoTag",
+  },
+  {
+    value: "extraTag",
+  }]
+);

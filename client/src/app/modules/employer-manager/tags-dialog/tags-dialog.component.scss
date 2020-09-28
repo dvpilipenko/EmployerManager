@@ -1,0 +1,21 @@
+.tag-container {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.dialog-container {
+  overflow: hidden;
+}
+.tag {
+  display: flex;
+}
+.tag-name {
+  max-width: 200px;
+  flex: 1 0 auto;
+}
+.action-button {
+  display: flex;
+  justify-content: center;
+}

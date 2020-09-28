@@ -1,0 +1,73 @@
+<div class="container">
+  <div class="header">
+    <div class="logo"><span>Employer Manger</span></div>
+    <app-button (click)="addEmployee()" icon="add" title="Hire"></app-button>
+    <app-button (click)="editTags()" icon="edit" title="Tags"></app-button>
+    <app-button
+      (click)="changeVisibilitySearchPanel()"
+      icon="search"
+      title="Search"
+    ></app-button>
+  </div>
+  <div *ngIf="isShowSearchPanel" class="search-panel">
+    <app-search-panel></app-search-panel>
+  </div>
+  <div class="table">
+    <div class="table-container">
+      <table
+        mat-table
+        [dataSource]="employees$ | async"
+        cdk-scrollable
+        class="table"
+        matSort
+        (matSortChange)="sortData($event)"
+      >
+        <ng-container matColumnDef="name">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header="name">Name</th>
+          <td mat-cell *matCellDef="let element">
+            {{ element.firstName + " " + element.lastName }}
+          </td>
+        </ng-container>
+
+        <ng-container matColumnDef="office">
+          <th mat-header-cell *matHeaderCellDef>Office</th>
+          <td mat-cell *matCellDef="let element">{{ element.office }}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="birthDate">
+          <th mat-header-cell *matHeaderCellDef>Birth Date</th>
+          <td mat-cell *matCellDef="let element">
+            {{ element.birthDate | date: "dd-MM-yyyy" }}
+          </td>
+        </ng-container>
+        <ng-container  matColumnDef="phone">
+          <th class="hide-mobile" mat-header-cell *matHeaderCellDef>Phone</th>
+          <td class="hide-mobile" mat-cell *matCellDef="let element">{{ element.phone }}</td>
+        </ng-container>
+
+        <ng-container  matColumnDef="tags">
+          <th class="hide-mobile" mat-header-cell *matHeaderCellDef>Tags</th>
+          <td class="hide-mobile" mat-cell *matCellDef="let element">
+            {{ element.tags?.join(", ") }}
+          </td>
+        </ng-container>
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr
+          class="table-row"
+          (click)="rowClick(row)"
+          mat-row
+          *matRowDef="let row; columns: displayedColumns"
+        ></tr>
+      </table>
+    </div>
+  </div>
+  <div class="footer">
+    <mat-paginator
+      [pageSizeOptions]="[5, 10, 20]"
+      [pageIndex]="(pageSetting$ | async).page"
+      (page)="changePage($event)"
+      [length]="(pageSetting$ | async).count"
+      showFirstLastButtons
+    ></mat-paginator>
+  </div>
+</div>

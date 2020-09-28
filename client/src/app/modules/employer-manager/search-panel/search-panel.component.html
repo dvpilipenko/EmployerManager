@@ -1,0 +1,18 @@
+<form class="form" [formGroup]="formGroup">
+  <mat-form-field class="name-field">
+    <mat-label>Search Name</mat-label>
+    <input matInput formControlName="name" />
+  </mat-form-field>
+  <mat-form-field class="office-field">
+    <mat-label>Office</mat-label>
+    <mat-select formControlName="office">
+      <mat-option *ngFor="let office of offices$ | async" [value]="office">{{
+        office
+      }}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <div class="buttons">
+    <button mat-stroked-button (click)="search()" color="primary">Search</button>
+    <button mat-stroked-button (click)="clear()"  color="primary">Clean</button>
+  </div>
+</form>

@@ -1,0 +1,22 @@
+<div mat-dialog-content class="dialog-container">
+  <h1 mat-dialog-title>Tag Editor</h1>
+  <form [formGroup]="formGroup">
+    <mat-form-field>
+      <mat-label>Add Tag</mat-label>
+      <input matInput required formControlName="value" />
+      <mat-icon (click)="addTag()" matSuffix>add</mat-icon>
+      <mat-error>Name is required</mat-error>
+    </mat-form-field>
+    <div class="tag-container">
+      <div *ngFor="let tag of tags$ | async" class="tag">
+        <div class="tag-name">
+          <span>{{ tag.value }}</span>
+        </div>
+        <mat-icon (click)="deleteTag(tag._id)">delete</mat-icon>
+      </div>
+    </div>
+  </form>
+  <div mat-dialog-actions class="action-button">
+    <button mat-button mat-dialog-close="">Close</button>
+  </div>
+</div>
